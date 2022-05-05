@@ -1,0 +1,23 @@
+{% extends 'paginas/base.html' %}
+
+{% block titulo %}New Book{% endblock titulo %}
+
+{% block contenido %}
+
+<div class="card">
+    <div class="card-header">
+        Nuevo libro
+    </div>
+    <div class="card-body">
+        <br>
+        <h4 class="card-title">Datos del libro</h4>
+        <br>
+        
+        {% include 'libreria/form.html' %}
+    </div>
+   
+</div>
+
+
+
+{% endblock contenido %}
